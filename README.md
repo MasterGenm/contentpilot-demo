@@ -120,20 +120,26 @@ SERPER_BASE_URL=https://google.serper.dev
 
 示例：
 
-```md
+
 ## Demo 快速预览
 
 ### 1) 总流程控制
+
+
 <img width="1920" height="910" alt="结果" src="https://github.com/user-attachments/assets/193f1d8f-7cb2-4748-b1a7-6de81cc52896" />
 
 
 ### 2) 选题研究
+
+
 <img width="1920" height="910" alt="改写效果" src="https://github.com/user-attachments/assets/0c1c30e2-479f-475a-bd54-9b67e07a94e6" />
 
 ### 3) 流程管理
+
+
 <img width="1920" height="910" alt="价值展示" src="https://github.com/user-attachments/assets/e39a578e-3637-4631-a6df-c71db0f9cab2" />
 
-```
+
 
 
 首次打开页面 `compiling` 较慢：
