@@ -124,10 +124,15 @@ SERPER_BASE_URL=https://google.serper.dev
 ## Demo 快速预览
 
 ### 1) 总流程控制
-![workflow](docs/readme/01-workflow.png)
+<img width="1920" height="910" alt="结果" src="https://github.com/user-attachments/assets/193f1d8f-7cb2-4748-b1a7-6de81cc52896" />
+
 
 ### 2) 选题研究
-![research](docs/readme/02-research.png)
+<img width="1920" height="910" alt="改写效果" src="https://github.com/user-attachments/assets/0c1c30e2-479f-475a-bd54-9b67e07a94e6" />
+
+### 3) 流程管理
+<img width="1920" height="910" alt="价值展示" src="https://github.com/user-attachments/assets/e39a578e-3637-4631-a6df-c71db0f9cab2" />
+
 ```
 
 
@@ -137,7 +142,20 @@ SERPER_BASE_URL=https://google.serper.dev
 
 ## 未来版本更新路线参考
 
-- P0：检索质量与可观测性（缓存、评分、来源验收）
-- P1：图文资产标准化（提示词模板库、素材复用）
-- P2：口播与分镜（脚本 -> 配音 -> 分镜）
-- P3：视频生成（后置，异步任务化）
+**一、质量层（最高优先）**
+目标：先把结果“做对、做稳”。
+检索评分与缓存：按相关性、可信度、时效性综合评分，并引入查询缓存。
+事实校验器：增加来源一致性检查，降低错误信息进入初稿的概率。
+输出验收器：统一校验标题、平台字段、字数范围、禁词与合规规则。
+**二、生产层（效率提升）**
+目标：提升团队单位时间产能。
+选题池与内容日历：支持周计划编排与选题优先级管理。
+模板系统：沉淀行业模板、语气模板、平台模板，提升复用率。
+批量改写与批量导出：提升团队批处理能力，缩短交付周期。
+A/B 标题实验与结果回流：将表现数据回写，反哺选题与改写策略。
+**三、多模态层（后置增强）**
+目标：在主链稳定后扩展内容形态。
+封面提示词模板库：先做图文封面标准化。
+口播稿到 AI 配音：支持文本到音频的自动化生成。
+分镜脚本生成（Shot List）：形成可执行拍摄清单。
+文生视频：后置建设，采用异步任务队列化执行，文生图优先落地实现。
