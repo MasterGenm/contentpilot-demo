@@ -142,9 +142,7 @@ SERPER_BASE_URL=https://google.serper.dev
 
 
 
-首次打开页面 `compiling` 较慢：
 
-- Next.js 首次编译通常 10-60 秒，属正常现象。
 
 ## 未来版本更新路线参考
 
