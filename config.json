@@ -1,0 +1,16 @@
+{
+  "system": {
+    "stream_mode": false
+  },
+  "filter": {
+    "filter_think_tags": false,
+    "clean_output": true
+  },
+  "api": {
+    "base_url": "https://api.siliconflow.cn/v1",
+    "model": "deepseek-ai/DeepSeek-R1-0528-Qwen3-8B",
+    "api_key": "sk-ccxdotzudmvyqkbyaapikxuampvvdgmvauruwpoalvaxylub",
+    "temperature": 0.7,
+    "max_tokens": 4096
+  }
+}
